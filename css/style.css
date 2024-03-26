@@ -1,0 +1,81 @@
+/* Styles for the container */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: beige;
+}
+
+/* Styles for the h1 heading */
+h1 {
+    text-align: center;
+    color: #333;
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+/* Styles for labels */
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Styles for select, checkboxes, and radio buttons */
+select,
+input[type="checkbox"],
+input[type="radio"] {
+    margin-bottom: 10px;
+}
+
+/* Styles for buttons */
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1c5ed4;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Styles for button on hover */
+button:hover {
+    background-color: #1c5dd9;
+}
+
+/* Styles for the pizza description */
+#pizzaDescription {
+    margin-top: 20px;
+    background-color: #45a921;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+/* Styles for the fieldset */
+fieldset {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/* Styles for the legend inside the fieldset */
+legend {
+    font-weight: bold;
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Styles for student info */
+#myInfo {
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 20px;
+}

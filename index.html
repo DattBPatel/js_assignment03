@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Maker</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Pizza Maker</h1>
+        <!-- Pizza Maker Form -->
+        <form id="pizzaMakerForm">
+            <!-- Base Selection -->
+            <label>Base:</label><br>
+            <input type="radio" id="maida" name="base" value="maida">
+            <label for="maida">Maida</label><br>
+            <input type="radio" id="wholewheat" name="base" value="whole wheat">
+            <label for="wholewheat">Whole Wheat</label><br>
+
+            <!-- Size Selection -->
+            <label for="size">Size:</label>
+            <select id="size" name="size">
+                <option value="small">Small</option>
+                <option value="medium">Medium</option>
+                <option value="large">Large</option>
+            </select><br>
+
+            <!-- Crust Selection -->
+            <label>Crust:</label><br>
+            <input type="radio" id="thin" name="crust" value="thin">
+            <label for="thin">Thin</label><br>
+            <input type="radio" id="thick" name="crust" value="thick">
+            <label for="thick">Thick</label><br>
+            <input type="radio" id="handmadePanPizza" name="crust" value="Handmade Pan Pizza">
+            <label for="handmadePanPizza">Handmade Pan Pizza</label><br>
+
+            <!-- Cheese Selection -->
+            <label for="cheese">Cheese:</label>
+            <select id="cheese" name="cheese">
+                <option value="mozzarella">Mozzarella</option>
+                <option value="cheddar">Cheddar</option>
+                <option value="parmesan">Parmesan</option>
+                <option value="provolone">Provolone</option>
+            </select><br>
+
+            <!-- Toppings Selection -->
+            <fieldset>
+                <legend>Toppings:</legend>
+                <!-- Meat Toppings -->
+                <div>
+                    <label>Meat Toppings:</label><br><br>
+                    <input type="checkbox" id="pepperoni" name="meat_topping" value="pepperoni">
+                    <label for="pepperoni">Pepperoni</label><br>
+                    <input type="checkbox" id="sausage" name="meat_topping" value="sausage">
+                    <label for="sausage">Sausage</label><br>
+                    <input type="checkbox" id="chicken" name="meat_topping" value="chicken">
+                    <label for="chicken">Chicken</label><br>
+                    <input type="checkbox" id="bacon" name="meat_topping" value="bacon">
+                    <label for="bacon">Bacon</label><br>
+                    <input type="checkbox" id="beef" name="meat_topping" value="beef">
+                    <label for="beef">Beef</label><br>
+                </div><br>
+                <!-- Veggie Toppings -->
+                <div>
+                    <label>Veggie Toppings:</label><br><br>
+                    <input type="checkbox" id="mushrooms" name="veggie_topping" value="mushrooms">
+                    <label for="mushrooms">Mushrooms</label><br>
+                    <input type="checkbox" id="bellpeppers" name="veggie_topping" value="bell peppers">
+                    <label for="bellpeppers">Bell Peppers</label><br>
+                    <input type="checkbox" id="tomatoes" name="veggie_topping" value="tomatoes">
+                    <label for="tomatoes">Tomatoes</label><br>
+                    <input type="checkbox" id="onions" name="veggie_topping" value="onions">
+                    <label for="onions">Onions</label><br>
+                    <input type="checkbox" id="olives" name="veggie_topping" value="olives">
+                    <label for="olives">Olives</label><br>
+                    <input type="checkbox" id="corn" name="veggie_topping" value="corn">
+                    <label for="corn">Corn</label><br>
+                </div>
+            </fieldset>
+
+            <!-- Order Button -->
+            <button type="button" id="orderBtn">Order</button>
+        </form>
+        
+        <!-- Student Info -->
+        <p id="myInfo"></p>
+
+        <!-- Pizza Description -->
+        <div id="pizzaDescription"></div>
+    </div>
+
+</body>
+</html>
